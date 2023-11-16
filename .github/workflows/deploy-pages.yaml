@@ -4,7 +4,7 @@ name: Deploy Hugo site via GitHub Pages
 on:
   push:
     branches:
-      - develop # Set a branch to deploy
+      - develop
   pull_request:
 
 permissions:
