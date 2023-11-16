@@ -1,11 +1,11 @@
 ## Example Config file
 BaseURL: "https://www.austindelarosa.com"
 #theme: "terminalCV"
-title: "atdlr"
+title: "cv"
 
 params:
-  description: "4s3ti cv terminal format"
-  prompt: "newuser@terminalcv"
+  description: "Austin DeLaRosa - Lead DevOps Engineer"
+  prompt: "root@atdlr"
   promptColor: lightblue
   promptSimbols: ":~$"
   # promptSimbolsColor: grey
@@ -14,7 +14,7 @@ params:
   exitLocation: "about:blank"
   # hidesource: true
   greeting: |
-    Welcome to my terminal CV
+    Welcome to my terminal cirriculum vitae
 
 
     Type 'help' for a list of available commands
