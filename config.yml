@@ -16,14 +16,13 @@ params:
   greeting: |
     Welcome to my terminal cirriculum vitae
 
-
     Type 'help' for a list of available commands
 
   whois:
     name: "Austin DeLaRosa"
     profession: "Lead DevOps Engineer"
     location: "Cincinnati, Ohio"
-    email: "austinl.delarosa@gmail.com"
+    email: "austin.delarosa@gmail.com"
     homelink: "https://www.austindelarosa.com"
     description: |
       This site is under construction
@@ -35,36 +34,58 @@ params:
     - name: "linkedin"
       url: "        https://www.linkedin.com/in/austindelarosa"
 
-  workexp:
-    - jobTitle: Job With Red Title
-      color: red
-      company: "-"
-      location: somewhere
-      date: August 2010 - Present
-      description: Some description about this red title job
+  work:
+    - jobTitle: Lead DevOps Engineer
+      color: gold
+      company: Mesh Systems
+      location: remote
+      date: August 2022 - Present
+      #description: |
 
-    - jobTitle: Job with purple title
-      color: purple
-      company: "-"
-      location: somewhere elese
-      date: July 2000  - July 2010
-      description: Some description about this purple job
+    - jobTitle: DevOps Engineer
+      color: lightblue
+      company: Mesh Systems
+      location: remote
+      date: August 2021 - August 2022
+      #description: |
 
-    - jobTitle: Job with default color title
-      company: "-"
-      location: anywhere
-      date: July 2008 - 2010
-      description: Description about this default color job
+    - jobTitle: Software Engineer
+      color: lightblue
+      company: The David J. Joseph Company (DJJ)
+      location: Cincinnati, Ohio
+      date: January 2020 - August 2021
+      #description: |
+
+    - jobTitle: Software Engineer
+      color: lightblue
+      company: Organized Living
+      location: Sharonville, Ohio
+      date: 2019
+      #description: |
+
+    - jobTitle: Software Engineer
+      color: lightblue
+      company: Atricure
+      location: Mason, Ohio
+      date: 2018 - 2019
+      #description: |
 
   education:
-    - courseName: Red Color training
-      color: red
-      date: June 2019 - July 2019
-      description: Descrption about red color trianing
+    - courseName: Tech Elevator
+      color: blue
+      description: |
+        Computer Science
 
-    - courseName: Default color training
-      date: Sept 2004 - Jun 2008
-      #description: There is no need for description
+    - courseName: Butler University
+      color: white
+      description: |
+        Master of Music
+
+    - courseName: DePauw University
+      color: gold
+      description: |
+        Bachelor of Music
+        ITAP
 
   skills:
     - name: Skill 1
@@ -93,13 +114,12 @@ params:
 
   languages:
     - name: English
-      color: Blue
-      percentage: 50
-      #description:
-
-    - name: Gibberish
+      color: gold
       percentage: 100
-      description: pasghettipigglywiggly
+
+    - name: Latin
+      percentage: 10
+      description: Semper ubi sub ubi
 
   projects:
     - title: Project Red
@@ -120,28 +140,36 @@ params:
       #description: not there either
 
   certifications:
-    - certName: Example Cert
+    - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
+      company: Microsoft
+      date: 2021
+      description: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
+    - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
       company: Example Certifying Company
-      date: Date of Completion
-      #description: Lorem Ipsum
+      date: 2022
+      description: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+    - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
+      company: Microsoft
+      date: 2023
+      description: https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
 
-  misc:
-    #commandName: newcommand
-    title: "This Section can have a different command name"
-    titleColor: teal
-    content: |
-      Here the title and the content can have different colors
-      The content can be multi
+  # misc:
+  #   #commandName: newcommand
+  #   title: "This Section can have a different command name"
+  #   titleColor: teal
+  #   content: |
+  #     Here the title and the content can have different colors
+  #     The content can be multi
 
-      line
+  #     line
 
-      And spaces       will be respected as well
-      This section will have the default command: misc
-      but you can name it something else with the property
-      commandName: <String>
-      Give it a shot and try and uncomment the line 
-      commandName: newcommand
-      now instead of misc you can execute the newcommand for this section
-      Auto completion will know it too! :D
+  #     And spaces       will be respected as well
+  #     This section will have the default command: misc
+  #     but you can name it something else with the property
+  #     commandName: <String>
+  #     Give it a shot and try and uncomment the line
+  #     commandName: newcommand
+  #     now instead of misc you can execute the newcommand for this section
+  #     Auto completion will know it too! :D
 
-    contentColor: orange
+  #   contentColor: orange
