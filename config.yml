@@ -1,6 +1,6 @@
 ## Example Config file
 BaseURL: "https://delarooster.github.io/"
-#theme: "terminalCV"
+theme: "terminalcv"
 title: "cv"
 
 params:
