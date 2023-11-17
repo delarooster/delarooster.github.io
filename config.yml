@@ -43,31 +43,38 @@ params:
       #description: |
 
     - jobTitle: DevOps Engineer
-      color: lightblue
+      color: gold
       company: Mesh Systems
       location: remote
       date: August 2021 - August 2022
       #description: |
 
     - jobTitle: Software Engineer
-      color: lightblue
+      color: blue
       company: The David J. Joseph Company (DJJ)
       location: Cincinnati, Ohio
       date: January 2020 - August 2021
       #description: |
 
     - jobTitle: Software Engineer
-      color: lightblue
+      color: blue
       company: Organized Living
       location: Sharonville, Ohio
       date: 2019
       #description: |
 
     - jobTitle: Software Engineer
-      color: lightblue
+      color: blue
       company: Atricure
       location: Mason, Ohio
       date: 2018 - 2019
+      #description: |
+
+    - jobTitle: Web Developer
+      color: blue
+      company: Mackin & Sons Plumbing
+      location: remote
+      date: 2016 - 2018
       #description: |
 
   education:
@@ -142,7 +149,7 @@ params:
   certifications:
     - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
       company: Microsoft
-      date: 2021
+      date: 2023
       description: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
     - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
       company: Example Certifying Company
@@ -150,7 +157,7 @@ params:
       description: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
     - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
       company: Microsoft
-      date: 2023
+      date: 2021
       description: https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
 
   # misc:
