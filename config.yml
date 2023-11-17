@@ -1,5 +1,5 @@
 ## Example Config file
-BaseURL: "https://www.austindelarosa.com"
+BaseURL: "https://austindelarosa.com/"
 theme: "terminalcv"
 title: "atdlr"
 
@@ -9,7 +9,7 @@ params:
   promptColor: lightblue
   promptSimbols: ":~$"
   # promptSimbolsColor: grey
-  startxLocation: https://twitter.com/search?q=lucas%20hennessey&src=typed_query&f=top
+  startxLocation: https://twitter.com/lucashennessey
   # hideSocialName: true
   exitLocation: "about:blank"
   # hidesource: true
