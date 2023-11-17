@@ -1,7 +1,7 @@
 ## Example Config file
-BaseURL: "https://delarooster.github.io/"
+BaseURL: "https://www.austindelarosa.com"
 theme: "terminalcv"
-title: "cv"
+title: "atdlr"
 
 params:
   description: "Austin DeLaRosa - Lead DevOps Engineer"
