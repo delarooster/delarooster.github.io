@@ -25,7 +25,7 @@ params:
     email: "austin.delarosa@gmail.com"
     homelink: "https://www.austindelarosa.com"
     description: |
-      This site is under construction
+      Automate all the things
 
   social:
     ## IF you want to keep them aligned just add spaces
@@ -103,7 +103,9 @@ params:
     - name: Writing code
       color: green
       percentage: 80
-      description: C#, Node, Python,
+      description: |
+        Fan of C# and TypeScript/JS
+        Developing Go and Python chops
 
     - name: Shell Scripting
       color: blue
@@ -165,10 +167,12 @@ params:
       date: 2021
       description: https://www.credly.com/badges/d934738b-bfc7-4cc8-8834-31dd6a3584b4
     - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
+      color: orange
       company: Example Certifying Company
       date: 2022
       description: https://www.credly.com/badges/2837c812-6e62-4d13-86f4-9bcb392bf2f2
     - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
+      color: gold
       company: Microsoft
       date: 2023
       description: https://learn.microsoft.com/en-us/users/austindelarosa-9331/credentials/ebefd65252f4d078
