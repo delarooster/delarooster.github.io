@@ -14,7 +14,7 @@ params:
   exitLocation: "about:blank"
   # hidesource: true
   greeting: |
-    Welcome to my terminal cirriculum vitae
+    Welcome to my terminal curriculum vitae
 
     Type 'help' for a list of available commands
 
