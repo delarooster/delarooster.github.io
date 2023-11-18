@@ -43,7 +43,7 @@ params:
       #description: |
 
     - jobTitle: DevOps Engineer
-      color: gold
+      color: white
       company: Mesh Systems
       location: remote
       date: August 2021 - August 2022
@@ -57,14 +57,14 @@ params:
       #description: |
 
     - jobTitle: Software Engineer
-      color: blue
+      color: green
       company: Organized Living
       location: Sharonville, Ohio
       date: 2019
       #description: |
 
     - jobTitle: Software Engineer
-      color: blue
+      color: orange
       company: Atricure
       location: Mason, Ohio
       date: 2018 - 2019
@@ -78,46 +78,64 @@ params:
       #description: |
 
   education:
-    - courseName: Tech Elevator
-      color: blue
-      description: |
-        Computer Science
-
-    - courseName: Butler University
-      color: white
-      description: |
-        Master of Music
-
     - courseName: DePauw University
       color: gold
       description: |
         Bachelor of Music
         ITAP
 
-  skills:
-    - name: Skill 1
-      percentage: 90
-      Description: you can add a description
+    - courseName: Butler University
+      color: white
+      description: |
+        Master of Music
 
-    - name: Skill 2
-      percentage: 30
-      #description: or you can leave it comented
-
-    - name: Skill 3
+    - courseName: Tech Elevator
       color: blue
-      percentage: 50
-      description: Skill names can have colors too
+      description: |
+        Computer Science
+
+  skills:
+    - name: Azure Cloud
+      color: orange
+      percentage: 90
+      description: Deploying to someone else's computer is my favorite
+
+    - name: Writing code
+      color: green
+      percentage: 80
+      description: C#, Node, Python,
+
+    - name: Shell Scripting
+      color: blue
+      percentage: 90
+      description: |
+        I truly love PowerShell but Bash is close to my heart
+
+    - name: Containerization
+      color: white
+      percentage: 85
+      description: Write once, run anywhere. k8s and docker are my friends
+
+    - name: Infrastructure as Code (IaC)
+      color: pink
+      percentage: 95
+      description: Azure Bicep or Hashicorp Terraform are my go to for source controlled infrastructure.  We keep ARM in the wings for emergencies
+
+    - name: YAML Pipelines
+      color: gold
+      percentage: 100
+      description: GitHub Actions and Azure Pipelines are my jam
 
   softskills:
-    - name: SoftSkill 1
+    - name: Mentoring
       color: red
-      percentage: 80
-      #description:
+      percentage: 100
+      description: I love to teach and learn from others
 
-    - name: SoftSkill 2
-      #color:
+    - name: Leadership
+      color: orange
       percentage: 90
-      description: Description
+      description: Working with others to achieve a common goal is top on my list
 
   languages:
     - name: English
@@ -129,36 +147,31 @@ params:
       description: Semper ubi sub ubi
 
   projects:
-    - title: Project Red
+    - title: AWS to Azure Migration
       color: red
-      date: since 2019
-      link: https://example.com
-      description: Describing red stuff
+      description: Lift 'n Shift of entire AWS prod environment to Azure
 
-    - title: Project Blue
+    - title: Common IoT Ingress Platform
+      color: gold
+      description: Architected and implemented a common and extendable IoT ingress platform solution for kickstarting customer projects
+
+    - title: IaC Module Library
       color: blue
-      date: since 2016
-      link: https://example.com/blue
-      #description: nothing to describe
-
-    - title: Project Default
-      date: Since 2017
-      link: https://example.com/default
-      #description: not there either
+      description: Created a library of reusable IaC modules for use across projects
 
   certifications:
-    - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
-      company: Microsoft
-      date: 2023
-      description: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
-    - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
-      company: Example Certifying Company
-      date: 2022
-      description: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
     - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
       company: Microsoft
       date: 2021
-      description: https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
+      description: https://www.credly.com/badges/d934738b-bfc7-4cc8-8834-31dd6a3584b4
+    - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
+      company: Example Certifying Company
+      date: 2022
+      description: https://www.credly.com/badges/2837c812-6e62-4d13-86f4-9bcb392bf2f2
+    - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
+      company: Microsoft
+      date: 2023
+      description: https://learn.microsoft.com/en-us/users/austindelarosa-9331/credentials/ebefd65252f4d078
 
   # misc:
   #   #commandName: newcommand
