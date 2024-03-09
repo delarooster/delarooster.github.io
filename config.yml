@@ -14,7 +14,7 @@ params:
   exitLocation: "about:blank"
   # hidesource: true
   greeting: |
-    Welcome to my terminal curriculum vitae
+    Welcome to my terminal curriculum vitae.
 
     Type 'help' for a list of available commands
 
@@ -31,8 +31,6 @@ params:
     ## IF you want to keep them aligned just add spaces
     - name: "github"
       url: "          https://github.com/delarooster"
-    - name: "linkedin"
-      url: "        https://www.linkedin.com/in/austindelarosa"
 
   work:
     - jobTitle: Lead DevOps Engineer
@@ -165,17 +163,17 @@ params:
     - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
       company: Microsoft
       date: 2021
-      description: https://www.credly.com/badges/d934738b-bfc7-4cc8-8834-31dd6a3584b4
+      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/A8DB4A7B9EDD07B?sharingId=F5F563C6C5BEE77E
     - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
       color: orange
       company: Example Certifying Company
       date: 2022
-      description: https://www.credly.com/badges/2837c812-6e62-4d13-86f4-9bcb392bf2f2
+      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/902860130C71004E?sharingId=F5F563C6C5BEE77E
     - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
       color: gold
       company: Microsoft
       date: 2023
-      description: https://learn.microsoft.com/en-us/users/austindelarosa-9331/credentials/ebefd65252f4d078
+      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/EBEFD65252F4D078?sharingId=F5F563C6C5BEE77E
 
   # misc:
   #   #commandName: newcommand
