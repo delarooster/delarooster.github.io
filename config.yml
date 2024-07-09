@@ -33,6 +33,13 @@ params:
       url: "          https://github.com/delarooster"
 
   work:
+    - jobTitle: Founder & Principal Consultant
+      color: brown
+      company: Anton Tech
+      location: remote
+      date: December 2023 - Present
+      #description: |
+
     - jobTitle: Lead DevOps Engineer
       color: gold
       company: Mesh Systems
@@ -95,7 +102,7 @@ params:
   skills:
     - name: Azure Cloud
       color: orange
-      percentage: 90
+      percentage: 100
       description: Deploying to someone else's computer is my favorite
 
     - name: Writing code
@@ -147,6 +154,10 @@ params:
       description: Semper ubi sub ubi
 
   projects:
+    - title: Add Azure to AI Platform
+      color: brown
+      description: Architected and added Azure as a cloud provider to an existing AI analysis platform
+
     - title: AWS to Azure Migration
       color: red
       description: Lift 'n Shift of entire AWS prod environment to Azure
