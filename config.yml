@@ -177,7 +177,7 @@ params:
       description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/A8DB4A7B9EDD07B?sharingId=F5F563C6C5BEE77E
     - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
       color: orange
-      company: Example Certifying Company
+      company: Microsoft
       date: 2022
       description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/902860130C71004E?sharingId=F5F563C6C5BEE77E
     - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
