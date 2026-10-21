@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>{{ .Site.Title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="sitemap" type="application/xml" href="{{ "sitemap.xml" | absURL }}">
+<script src="{{ "vendor/jquery-3.7.1.min.js" | relURL }}"></script>
+<script src="{{ "vendor/jquery.terminal-2.45.2.min.js" | relURL }}"></script>
+<script src="{{ "vendor/less-2.45.2.min.js" | relURL }}"></script>
+<script src="{{ "vendor/autocomplete_menu-2.45.2.js" | relURL }}"></script>
+<link rel="stylesheet" href="{{ "vendor/jquery.terminal-2.45.2.min.css" | relURL }}">
+<style>
+  body { width: 100%; font-size: 18px; }
+</style>
