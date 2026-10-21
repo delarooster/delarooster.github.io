@@ -1,15 +1,16 @@
-## Example Config file
-BaseURL: "https://austindelarosa.com/"
+baseURL: "https://www.austindelarosa.com/"
 theme: "terminalcv"
 title: "atdlr"
 
 params:
   description: "Austin DeLaRosa - Lead DevOps Engineer"
-  prompt: "root@atdlr"
-  promptColor: lightblue
-  promptSimbols: ":~$"
-  # promptSimbolsColor: grey
-  startxLocation: https://twitter.com/lucashennessey
+  prompt:
+    core:
+      text: "root@atdlr"
+      color: lightblue
+    extra:
+      text: ":~$ "
+      color: grey
   # hideSocialName: true
   exitLocation: "about:blank"
   # hidesource: true
@@ -19,172 +20,173 @@ params:
     Type 'help' for a list of available commands
 
   whois:
-    name: "Austin DeLaRosa"
-    profession: "Lead DevOps Engineer"
-    location: "Cincinnati, Ohio"
-    email: "austin.delarosa@gmail.com"
-    homelink: "https://www.austindelarosa.com"
-    description: |
-      Automate all the things
+    details:
+      name: "Austin DeLaRosa"
+      profession: "Lead DevOps Engineer"
+      location: "Cincinnati, Ohio"
+      email: "austin.delarosa@gmail.com"
+      homelink: "https://www.austindelarosa.com"
+      description: |
+        Automate all the things
 
   social:
-    ## IF you want to keep them aligned just add spaces
-    - name: "github"
-      url: "          https://github.com/delarooster"
+    details:
+      - name: "github"
+        url: "https://github.com/delarooster"
 
   work:
-    - jobTitle: Founder & Principal Consultant
-      color: brown
-      company: Anton Tech
-      location: remote
-      date: December 2023 - Present
-      #description: |
+    details:
+      - jobTitle: Founder & Principal Consultant
+        color: brown
+        company: Anton Tech
+        location: remote
+        date: December 2023 - Present
 
-    - jobTitle: Lead DevOps Engineer
-      color: gold
-      company: Mesh Systems
-      location: remote
-      date: August 2022 - Present
-      #description: |
+      - jobTitle: Lead DevOps Engineer
+        color: gold
+        company: Mesh Systems
+        location: remote
+        date: August 2022 - Present
 
-    - jobTitle: DevOps Engineer
-      color: white
-      company: Mesh Systems
-      location: remote
-      date: August 2021 - August 2022
-      #description: |
+      - jobTitle: DevOps Engineer
+        color: white
+        company: Mesh Systems
+        location: remote
+        date: August 2021 - August 2022
 
-    - jobTitle: Software Engineer
-      color: blue
-      company: The David J. Joseph Company (DJJ)
-      location: Cincinnati, Ohio
-      date: January 2020 - August 2021
-      #description: |
+      - jobTitle: Software Engineer
+        color: blue
+        company: The David J. Joseph Company (DJJ)
+        location: Cincinnati, Ohio
+        date: January 2020 - August 2021
 
-    - jobTitle: Software Engineer
-      color: green
-      company: Organized Living
-      location: Sharonville, Ohio
-      date: 2019
-      #description: |
+      - jobTitle: Software Engineer
+        color: green
+        company: Organized Living
+        location: Sharonville, Ohio
+        date: 2019
 
-    - jobTitle: Software Engineer
-      color: orange
-      company: Atricure
-      location: Mason, Ohio
-      date: 2018 - 2019
-      #description: |
+      - jobTitle: Software Engineer
+        color: orange
+        company: Atricure
+        location: Mason, Ohio
+        date: 2018 - 2019
 
-    - jobTitle: Web Developer
-      color: blue
-      company: Mackin & Sons Plumbing
-      location: remote
-      date: 2016 - 2018
-      #description: |
+      - jobTitle: Web Developer
+        color: blue
+        company: Mackin & Sons Plumbing
+        location: remote
+        date: 2016 - 2018
 
   education:
-    - courseName: DePauw University
-      color: gold
-      description: |
-        Bachelor of Music
-        ITAP
+    details:
+      - courseName: DePauw University
+        color: gold
+        description: |
+          Bachelor of Music
+          ITAP
 
-    - courseName: Butler University
-      color: white
-      description: |
-        Master of Music
+      - courseName: Butler University
+        color: white
+        description: |
+          Master of Music
 
-    - courseName: Tech Elevator
-      color: blue
-      description: |
-        Computer Science
+      - courseName: Tech Elevator
+        color: blue
+        description: |
+          Computer Science
 
   skills:
-    - name: Azure Cloud
-      color: orange
-      percentage: 100
-      description: Deploying to someone else's computer is my favorite
+    details:
+      - name: Azure Cloud
+        color: orange
+        percentage: 100
+        description: Deploying to someone else's computer is my favorite
 
-    - name: Writing code
-      color: green
-      percentage: 80
-      description: |
-        Fan of C# and TypeScript/JS
-        Developing Go and Python chops
+      - name: Writing code
+        color: green
+        percentage: 80
+        description: |
+          Fan of C# and TypeScript/JS
+          Developing Go and Python chops
 
-    - name: Shell Scripting
-      color: blue
-      percentage: 90
-      description: |
-        I truly love PowerShell but Bash is close to my heart
+      - name: Shell Scripting
+        color: blue
+        percentage: 90
+        description: |
+          I truly love PowerShell but Bash is close to my heart
 
-    - name: Containerization
-      color: white
-      percentage: 85
-      description: Write once, run anywhere. k8s and docker are my friends
+      - name: Containerization
+        color: white
+        percentage: 85
+        description: Write once, run anywhere. k8s and docker are my friends
 
-    - name: Infrastructure as Code (IaC)
-      color: pink
-      percentage: 95
-      description: Azure Bicep or Hashicorp Terraform are my go to for source controlled infrastructure.  We keep ARM in the wings for emergencies
+      - name: Infrastructure as Code (IaC)
+        color: pink
+        percentage: 95
+        description: Azure Bicep or Hashicorp Terraform are my go to for source controlled infrastructure.  We keep ARM in the wings for emergencies
 
-    - name: YAML Pipelines
-      color: gold
-      percentage: 100
-      description: GitHub Actions and Azure Pipelines are my jam
+      - name: YAML Pipelines
+        color: gold
+        percentage: 100
+        description: GitHub Actions and Azure Pipelines are my jam
 
   softskills:
-    - name: Mentoring
-      color: red
-      percentage: 100
-      description: I love to teach and learn from others
+    details:
+      - name: Mentoring
+        color: red
+        percentage: 100
+        description: I love to teach and learn from others
 
-    - name: Leadership
-      color: orange
-      percentage: 90
-      description: Working with others to achieve a common goal is top on my list
+      - name: Leadership
+        color: orange
+        percentage: 90
+        description: Working with others to achieve a common goal is top on my list
 
   languages:
-    - name: English
-      color: gold
-      percentage: 100
+    details:
+      - name: English
+        color: gold
+        percentage: 100
 
-    - name: Latin
-      percentage: 10
-      description: Semper ubi sub ubi
+      - name: Latin
+        percentage: 10
+        description: Semper ubi sub ubi
 
   projects:
-    - title: Add Azure to AI Platform
-      color: brown
-      description: Architected and added Azure as a cloud provider to an existing AI analysis platform
+    details:
+      - title: Add Azure to AI Platform
+        color: brown
+        description: Architected and added Azure as a cloud provider to an existing AI analysis platform
 
-    - title: AWS to Azure Migration
-      color: red
-      description: Lift 'n Shift of entire AWS prod environment to Azure
+      - title: AWS to Azure Migration
+        color: red
+        description: Lift 'n Shift of entire AWS prod environment to Azure
 
-    - title: Common IoT Ingress Platform
-      color: gold
-      description: Architected and implemented a common and extendable IoT ingress platform solution for kickstarting customer projects
+      - title: Common IoT Ingress Platform
+        color: gold
+        description: Architected and implemented a common and extendable IoT ingress platform solution for kickstarting customer projects
 
-    - title: IaC Module Library
-      color: blue
-      description: Created a library of reusable IaC modules for use across projects
+      - title: IaC Module Library
+        color: blue
+        description: Created a library of reusable IaC modules for use across projects
 
   certifications:
-    - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
-      company: Microsoft
-      date: 2021
-      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/A8DB4A7B9EDD07B?sharingId=F5F563C6C5BEE77E
-    - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
-      color: orange
-      company: Microsoft
-      date: 2022
-      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/902860130C71004E?sharingId=F5F563C6C5BEE77E
-    - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
-      color: gold
-      company: Microsoft
-      date: 2023
-      description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/EBEFD65252F4D078?sharingId=F5F563C6C5BEE77E
+    details:
+      - certName: "Microsoft Certified: Azure Fundamentals, AZ-900"
+        company: Microsoft
+        date: 2021
+        description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/A8DB4A7B9EDD07B?sharingId=F5F563C6C5BEE77E
+      - certName: "Microsoft Certified: Azure Developer Associate, AZ-204"
+        color: orange
+        company: Microsoft
+        date: 2022
+        description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/902860130C71004E?sharingId=F5F563C6C5BEE77E
+      - certName: "Microsoft Certified: DevOps Engineer Expert, AZ-400"
+        color: gold
+        company: Microsoft
+        date: 2023
+        description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/EBEFD65252F4D078?sharingId=F5F563C6C5BEE77E
 
   # misc:
   #   #commandName: newcommand
