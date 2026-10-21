@@ -1,12 +1,12 @@
 baseURL: "https://www.austindelarosa.com/"
 theme: "terminalcv"
-title: "atdlr"
+title: "delarooster"
 
 params:
-  description: "Austin DeLaRosa - Lead DevOps Engineer"
+  description: "Austin DeLaRosa - Principal Cloud Architect building cloud platforms, AI agent workflows, and delivery automation."
   prompt:
     core:
-      text: "root@atdlr"
+      text: "root@delarooster"
       color: lightblue
     extra:
       text: ":~$ "
@@ -17,25 +17,40 @@ params:
   greeting: |
     Welcome to my terminal curriculum vitae.
 
+    Cloud platforms. AI agents. Deployments should be boring.
+    Type 'whois' for my background or 'ai' for agent workflows.
     Type 'help' for a list of available commands
 
   whois:
     details:
       name: "Austin DeLaRosa"
-      profession: "Lead DevOps Engineer"
+      profession: "Technical Principal | Cloud Architecture & Platform Engineering"
       location: "Cincinnati, Ohio"
       email: "austin.delarosa@gmail.com"
       homelink: "https://www.austindelarosa.com"
       description: |
-        Automate all the things
+        Deploying to someone else's computer is still my favorite.
+        Azure and AWS platforms, infrastructure as code, and AI agents that do
+        more than enthusiastically agree with me. I build the pipelines, tests,
+        and independent reviews that turn their typing into software worth shipping.
+
+        Automate all the things. Keep deployments boring.
 
   social:
     details:
       - name: "github"
         url: "https://github.com/delarooster"
+      - name: "linkedin"
+        url: "https://linkedin.com/in/austindelarosa"
 
   work:
     details:
+      - jobTitle: Technical Principal
+        color: gold
+        company: Mesh Systems
+        location: remote
+        date: May 2026 - Present
+
       - jobTitle: Founder & Principal Consultant
         color: brown
         company: Anton Tech
@@ -46,7 +61,7 @@ params:
         color: gold
         company: Mesh Systems
         location: remote
-        date: August 2022 - Present
+        date: August 2022 - May 2026
 
       - jobTitle: DevOps Engineer
         color: white
@@ -101,35 +116,44 @@ params:
       - name: Azure Cloud
         color: orange
         percentage: 100
-        description: Deploying to someone else's computer is my favorite
+        description: |
+          Deploying to someone else's computer is my favorite.
+          Azure Landing Zones, zero-trust networking, and moving AWS workloads into their new Azure home.
 
       - name: Writing code
         color: green
         percentage: 80
         description: |
-          Fan of C# and TypeScript/JS
-          Developing Go and Python chops
+          Fan of C#/.NET and TypeScript. Occasionally responsible for the whole app.
+          Claude Code, Codex, and OpenCode do plenty of typing. Tests and a second set of robot eyes keep them honest.
 
       - name: Shell Scripting
         color: blue
         percentage: 90
         description: |
-          I truly love PowerShell but Bash is close to my heart
+          I truly love PowerShell but Bash is close to my heart.
+          If the runbook says "click this every Tuesday," we should probably talk.
 
       - name: Containerization
         color: white
         percentage: 85
-        description: Write once, run anywhere. k8s and docker are my friends
+        description: |
+          Write once, run anywhere. Some assembly required.
+          Docker, AKS/EKS, and Flux GitOps keep the containers pointed in the right direction.
 
       - name: Infrastructure as Code (IaC)
         color: pink
         percentage: 95
-        description: Azure Bicep or Hashicorp Terraform are my go to for source controlled infrastructure.  We keep ARM in the wings for emergencies
+        description: |
+          Bicep, Terraform, and OpenTofu. Clicking around the portal is not a deployment strategy.
+          Reusable modules, versioned interfaces, and tests for the stuff holding everything else up.
 
       - name: YAML Pipelines
         color: gold
         percentage: 100
-        description: GitHub Actions and Azure Pipelines are my jam
+        description: |
+          GitHub Actions and Azure Pipelines are my jam.
+          Tests, delivery metrics, and approval gates. Green should mean more than "the YAML parsed."
 
   softskills:
     details:
@@ -155,21 +179,73 @@ params:
 
   projects:
     details:
+      - title: AI Delivery Skills and Story Loops
+        color: gold
+        link: https://github.com/delarooster/skills
+        description: |
+          Gave Claude Code, Codex, and OpenCode a shared playbook instead of explaining myself every morning.
+          Fresh agents pick up stories, write tests, and open stacked PRs. A separate judge checks the receipts.
+          Reusable skills, scored instruction sets, and explicit publication guardrails. Trust, but git diff.
+
+      - title: Agent Workflow Experiments
+        color: green
+        link: https://github.com/delarooster/agent-workflows
+        description: |
+          C# agent workflow experiments, plus MCP and Semantic Kernel integrations for infrastructure work.
+          Less "write me a poem about Kubernetes," more putting the tools to work.
+
+      - title: Contractor Marketplace - Full-Stack Engineering
+        color: orange
+        description: |
+          A mobile-first marketplace connecting contractors with workers. The interesting bits are under the hood.
+          .NET API, SvelteKit, and PostgreSQL/Supabase, with shift calendars that respect the job site's time zone.
+          Address and contact visibility tied to accepted work and explicit sharing rules, not just hidden buttons.
+          Stripe prepaid balances and refund handling, including duplicate events and refunds arriving before credits.
+          Because webhooks do not promise to arrive once, politely, in order.
+
+      - title: Contractor Marketplace - Agentic Delivery
+        color: gold
+        description: |
+          Put the story loop to work on a real application, not another to-do demo.
+          Parallel agent teams use isolated worktrees and local test lanes; an independent PR judge checks the result.
+          Self-hosted GitHub Actions runners and sharded Playwright suites handle the CI work.
+          Agents also draft release notes and flag help text affected by code changes. The paperwork gets robots too.
+
+      - title: Gear Saver
+        color: green
+        description: |
+          Manifest V3 Chrome/Brave extension with content-script save buttons, instant listing search, and offline-first chrome.storage.local persistence.
+          No backend or account required. Apparently my shopping habit needed tooling.
+
+      - title: Azure Tag Cleanup
+        color: blue
+        link: https://github.com/delarooster/Azure.Tenant.Management.Tags
+        description: |
+          .NET and Azure Resource Manager SDK utility with YAML-driven tag migrations across subscriptions, resource groups, and resources.
+          Parallel processing, value-preserving key renames, and collision checks. Cloud housekeeping, minus the portal clicking.
+
+      - title: Terraform Module Testing
+        color: pink
+        link: https://github.com/delarooster/Terraform.Test.Demo
+        description: |
+          Native HCL terraform test runs assert Azure storage tier, replication, and tags at plan time, plus expected failures for invalid names.
+          Because looking convincing in a code review is not a test.
+
       - title: Add Azure to AI Platform
         color: brown
-        description: Architected and added Azure as a cloud provider to an existing AI analysis platform
+        description: Gave an existing AI analysis platform an Azure option. The cloud menu needed another item.
 
       - title: AWS to Azure Migration
         color: red
-        description: Lift 'n Shift of entire AWS prod environment to Azure
+        description: Lift 'n Shift of an entire AWS production environment to Azure. Same workloads, different someone else's computer.
 
       - title: Common IoT Ingress Platform
         color: gold
-        description: Architected and implemented a common and extendable IoT ingress platform solution for kickstarting customer projects
+        description: Built a shared, extensible IoT ingress platform so every customer project did not start with the same plumbing homework.
 
       - title: IaC Module Library
         color: blue
-        description: Created a library of reusable IaC modules for use across projects
+        description: Turned repeat infrastructure into reusable modules. Copy-paste is not a versioning strategy.
 
   certifications:
     details:
@@ -188,23 +264,19 @@ params:
         date: 2023
         description: https://learn.microsoft.com/api/credentials/share/en-us/AustinDeLaRosa-9331/EBEFD65252F4D078?sharingId=F5F563C6C5BEE77E
 
-  # misc:
-  #   #commandName: newcommand
-  #   title: "This Section can have a different command name"
-  #   titleColor: teal
-  #   content: |
-  #     Here the title and the content can have different colors
-  #     The content can be multi
+  misc:
+    commandName: ai
+    title: AI-Driven Delivery
+    titleColor: gold
+    contentColor: white
+    content: |
+      Automate all the things. Including the part where I used to babysit the automation.
 
-  #     line
+      Story loops: pick a story, write the tests, do the work, open the PR. Fresh agent, no baggage.
+      Independent review: a separate verifier and PR judge check the receipts. "Looks good" is not evidence.
+      Cold starts: read state, do one job, write state, exit. No amnesia-induced architecture decisions.
+      Instructions as code: versioned skills and scored evaluations. Even the prompts get a performance review.
+      Human control: tests and explicit approval boundaries. The robots do not get the keys to everything.
 
-  #     And spaces       will be respected as well
-  #     This section will have the default command: misc
-  #     but you can name it something else with the property
-  #     commandName: <String>
-  #     Give it a shot and try and uncomment the line
-  #     commandName: newcommand
-  #     now instead of misc you can execute the newcommand for this section
-  #     Auto completion will know it too! :D
-
-  #   contentColor: orange
+      Tools: Claude Code, Codex, OpenCode, MCP, and Semantic Kernel.
+      Explore the implementation: https://github.com/delarooster/skills
