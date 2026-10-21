@@ -1,5 +1,5 @@
 {
-  "name": "atdlr-site",
+  "name": "delarooster-site",
   "private": true,
   "scripts": {
     "test": "playwright test"

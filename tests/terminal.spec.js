@@ -14,13 +14,14 @@ test('terminal works without third-party services', async ({ page }) => {
   });
 
   await page.goto('/');
+  await expect(page).toHaveTitle('delarooster');
   const terminal = page.locator('body');
   await expect(terminal).toContainText('Welcome to my terminal curriculum vitae.');
-  await expect(page.locator('.cmd-prompt')).toContainText('root@atdlr');
+  await expect(page.locator('.cmd-prompt')).toContainText('root@delarooster');
 
   const commands = {
     help: 'Available commands',
-    whois: 'Austin DeLaRosa',
+    whois: 'Technical Principal | Cloud Architecture & Platform Engineering',
     social: 'https://github.com/delarooster',
     work: 'Anton Tech',
     education: 'DePauw University',
@@ -28,6 +29,7 @@ test('terminal works without third-party services', async ({ page }) => {
     softskills: 'Mentoring',
     languages: 'Latin',
     projects: 'IaC Module Library',
+    ai: 'AI-Driven Delivery',
     certifications: 'AZ-400',
     source: 'hugo-theme-terminalcv',
     all: 'Austin DeLaRosa',
@@ -40,6 +42,34 @@ test('terminal works without third-party services', async ({ page }) => {
       return term.exec(command);
     }, command);
     await expect(terminal).toContainText(output);
+    if (command === 'help') await expect(terminal).toContainText('ai');
+    if (command === 'work') {
+      await expect(terminal).toContainText('Technical Principal');
+      await expect(terminal).toContainText('May 2026 - Present');
+      await expect(terminal).toContainText('Lead DevOps Engineer');
+      await expect(terminal).toContainText('August 2022 - May 2026');
+      await expect(terminal).not.toContainText('August 2022 - Present');
+    }
+    if (command === 'social') await expect(terminal).toContainText('https://linkedin.com/in/austindelarosa');
+    if (command === 'projects') {
+      await expect(terminal).toContainText('AI Delivery Skills and Story Loops');
+      await expect(terminal).toContainText('https://github.com/delarooster/skills');
+      await expect(terminal).toContainText('Contractor Marketplace - Full-Stack Engineering');
+      await expect(terminal).toContainText('refunds arriving before credits');
+      await expect(terminal).toContainText('isolated worktrees and local test lanes');
+      await expect(terminal).toContainText('Gear Saver');
+      await expect(terminal).toContainText('Azure Tag Cleanup');
+      await expect(terminal).toContainText('Terraform Module Testing');
+      await expect(terminal).toContainText('chrome.storage.local');
+      await expect(terminal).toContainText('value-preserving key renames');
+      await expect(terminal).toContainText('expected failures for invalid names');
+      await expect(terminal).not.toContainText('Engineering Delivery Metrics');
+    }
+    if (command === 'projects' || command === 'all') await expect(terminal).not.toContainText(/getwork|2fit/i);
+    if (command === 'ai' || command === 'all') {
+      await expect(terminal).toContainText('Independent review');
+      await expect(terminal).toContainText('Human control');
+    }
   }
 
   await page.evaluate(() => {
